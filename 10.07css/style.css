@@ -1,0 +1,37 @@
+.title 
+    { color: rgb(135, 143, 235); 
+    font-size: 84px; 
+    font-weight: 400;
+    font-family: "Cormorant Garamond", serif;}
+
+.title-02 
+{ color: blueviolet; }
+
+.box-1 
+{ border: 8px solid skyblue;
+height: 100px;
+width: 200px;
+display: inline-block;
+box-sizing: border-box;
+margin-left: 50px ;
+margin-right: 20px;
+margin-top: 10px;
+margin-bottom: 10px;}
+
+.box-2
+{ border: 8px solid rgb(0, 179, 250);
+height: 100px;
+width: 33.3333%;
+display: inline-block;
+box-sizing: border-box;
+font-size: 30px;}
+
+.container 
+{font-size: 0;
+width: 100%;
+max-width: 1000px;
+margin: auto;}
+
+.center-container
+{width: 100%;}
+

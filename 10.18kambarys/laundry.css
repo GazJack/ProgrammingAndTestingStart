@@ -1,0 +1,37 @@
+body
+{font-family: "Hind Siliguri", sans serif, font weight 100;}
+
+.questions
+{display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 50px;
+background-color:rgba(168, 197, 229, 0.307);}
+
+.questions .center-all
+{display: flex;
+justify-content: space-evenly;
+align-items: center;
+color: #5C5C5C;
+font-size: 16px;}
+
+.questions h2
+{display: flex;
+justify-content: center;
+align-items: center;
+color: #5C5C5C;
+font-size: 30px;
+font-weight: 600;}
+
+.left-section
+{display: flex;
+line-height: 2;
+align-content: space-around;
+cursor: pointer;}
+
+.right-section
+{display: flex;
+justify-content: space-around;
+line-height: 2;
+cursor: pointer;}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registracija</title>
+  <style>
+    .error {
+      color: red;
+      font-size: 0.9em;
+    }
+    .success {
+      color: green;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Registracija</h1>
+  <form id="registrationForm">
+    <label for="name">Vardas</label>
+    <input type="text" id="name" name="name" required>
+    <span id="nameError" class="error"></span><br>
+
+    <label for="email">El. paštas</label>
+    <input type="email" id="email" name="email" required>
+    <span id="emailError" class="error"></span><br>
+
+    <label for="age">Amžius</label>
+    <input type="date" id="age" name="age" required>
+    <span id="ageError" class="error"></span><br>
+
+    <label for="phone">Telefono numeris</label>
+    <input type="tel" id="phone" name="phone" pattern="^\+?\d{1,4}[\s\-]?\(?\d{1,4}?\)?[\s\-]?\d{1,4}[\s\-]?\d{1,4}$" required>
+    <span id="phoneError" class="error"></span><br>
+
+    <label for="password">Slaptažodis</label>
+    <input type="password" id="password" name="password" required>
+    <span id="passwordError" class="error"></span><br>
+
+    <label for="confirmPassword">Pakartoti slaptažodį</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required>
+    <span id="confirmPasswordError" class="error"></span><br>
+
+    <button type="submit">Registruotis</button>
+  </form>
+
+  <div id="successMessage" class="success"></div>
+
+  <script src="chat.js"></script>
+</body>
+</html>

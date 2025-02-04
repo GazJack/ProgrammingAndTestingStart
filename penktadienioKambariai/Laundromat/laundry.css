@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContainer {
+    width: 100%;
+    height: 900px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5acd6b71da02bcf0fc160fce/1530042443340-4JVT1P6F8G2LJCASBEAC/banner-3.jpg);
+    background-position-x: -420px;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.headerNav {
+    width: 100%;
+}
+
+.navigationBar {
+    margin-top: 50px;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+.navigationBar ul {
+    gap: 50px;
+}
+
+.navigationBar ul li {
+    list-style: none;
+}
+
+.navigationBar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigationBar ul li a:hover {
+    color: lightgray;
+    transition: all 0.1s ease-in-out;
+}
+
+.navigationBar ul li a img {
+    width: 180px;
+}
+
+.aBetterPlaceContainer {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 200px;
+}
+
+.aBetterPlaceContainer h3 {
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.aBetterPlaceContainer h1 {
+    font-family: "Hind Siliguri", serif;
+    line-height: 70px;
+    font-size: 60px;
+    color: white;
+}
+
+.viewLocationBtn {
+    width: 200px;
+    height: 60px;
+    top: 561px;
+    left: 190px;
+    border: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+    color: brown;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.mainContainer1 {
+    width: 100%;
+    flex-direction: column;
+}
+
+.sectionTwo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+ 
+.boxes{
+    width: 60%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 50px 100px;
+   
+}
+@media screen and (max-width: 1280px){
+    .boxes {
+padding: 0 20px;
+}
+}
+ 
+.box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+ 
+@media screen and (max-width: 1280px){
+    .boxes .box{
+width: 47%;
+}
+ 
+}
+ 
+@media screen and (max-width: 700px){
+    .boxes .box{
+width: 100%;
+}
+ 
+}
+ 
+.box img{
+    width: 300px;
+}
+.textBox{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+ 
+.textBox h3{
+    text-align: center;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(109, 106, 106);
+    text-transform: uppercase;
+}
+.textBox p{
+    text-align: center;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 17px;
+    color: rgb(110, 106, 106);
+    font-weight: 500;
+    line-height: 28px;
+}
+.textBox p a{
+    text-decoration: none;
+    color: rgb(146, 36, 36);
+    font-weight: 400;
+}
+ 
+.part3 {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5acd6b71da02bcf0fc160fce/1530037912556-1TP4TRNY5WKOMDIO91Q0/banner-5.jpg');
+    width: 100%;
+}
+ 
+.column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+ 
+.top-text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.flex-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+ 
+.part3 .imagesWithText-container .imagesWithText .offer {
+    width: 20%;
+ 
+}
+ 
+.part3 .imagesWithText .offer img {
+width: 140.34px;
+height: 46.78px;
+}
+ 
+.part3 .imagesWithText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.part3 .imagesWithText-container {
+ 
+width: 100%;
+display: flex;
+flex: wrap;
+height: 500px;
+margin: 0;
+}
+ 
+.part3 .top-text h2 {
+color: white;
+font-size: 25px;
+}
+ 
+.part3 .top-text p {
+color: white;
+font-size: 16px;
+}
+ 
+.part3 .imagesWithText-container .imagesWithText .offer h3 {
+    font-size: 15px;
+    color: white;
+}
+
+.reviewsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 1080px;
+    padding: 30px 34px;
+    margin: auto;
+  }
+  .review {
+    position: relative;
+  }
+  .reviewsH2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #5c5c5c;
+  }
+  .reviewsH3 {
+    font-size: 18px;
+    color: #444444;
+  }
+  .red-star {
+    color: #c13e3f;
+  }
+  .reviewsParagraph {
+    font-size: 15px;
+    line-height: 2.5;
+    color: #444444;
+    margin-bottom: 30px;
+  }
+  .reviewsImg {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .reviewsWebsite {
+    text-decoration: none;
+    color: #c23f3e;
+  }
+
+  .questions
+{
+    /* margin-top: 100px; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 50px;
+background-color:rgba(168, 197, 229, 0.307);}
+ 
+ 
+.questions .center-all
+{display: flex;
+justify-content: space-evenly;
+align-items: center;
+color: #5C5C5C;
+font-size: 16px;}
+ 
+.questions h2
+{
+    /* margin-top: 50px;
+margin-bottom: 30px; */
+    display: flex;
+justify-content: center;
+align-items: center;
+color: #5C5C5C;
+font-size: 30px;
+font-weight: 600;}
+ 
+.left-section
+{display: flex;
+line-height: 2;
+align-content: space-around;
+cursor: pointer;}
+ 
+.right-section
+{display: flex;
+justify-content: space-around;
+line-height: 2;
+cursor: pointer;}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8%;
+     
+     
+    margin-top: 4%;
+     
+     
+    }
+    /* <!-- KONTAKTU PRADZIA CIA TOP MARGIN--> */
+     
+    .left-side-container-contacts{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-top: 4%;
+        line-height: 1.6rem;
+        color: #5c5c5c;
+    }
+    .facebook-icon{
+        margin-top: 1rem;
+        width: 40px;
+        height: 40px;
+    }
+    i{
+        margin: 4px 6px;
+    }
+    .location-title{
+        margin-top:32px;
+        margin-bottom:14px;
+    }
+    .address{
+        margin-bottom: 36px;
+    }
+    .working-title{
+        margin-bottom:14px;
+    }
+    .working-hours{
+        margin-bottom: 36px;
+    }
+    .email-title{
+        margin-bottom: 14px;
+    }
+    .map-image{
+        filter:grayscale(100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 16%;
+        margin-top:2%;
+    }
+    .email-given{
+        color: #c23f3e;
+    }
+     
+    .footer-container{
+        margin-top: auto;
+        background-color: #c23f3e;
+        height: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-title{
+        font-size: 30px;
+      line-height: 1.2em;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+    }
+    .email-signup{
+        margin: 12px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15%;
+        margin-top: 8%;
+    }
+     
+    #input-email{
+        height: 32px;
+        width: 180px;
+        padding: 6px 12px;
+        margin-right: 12px;
+        border: 0;
+    }
+    #submit-email-button{
+        padding:15px 40px;
+        border-radius: 20px;
+        border: 0;
+        color: #5c5c5c;
+    }
+    .footer-text{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        letter-spacing: .3px;
+      line-height: 1.6em;
+    }
+    #link-to-site{
+        text-decoration: none;
+        color:white;
+        border-bottom: 1px solid white;
+        padding: 2px;
+    }
+    .footer-image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+        margin-bottom: 6%;
+    }
+    #footer-img{
+        width: 15%;
+        height: auto;
+    }
+    .footer-insider{
+        margin-top: 3%;
+    }
+     
+     
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height:39px;
+        opacity: 0;
+        font-size: 14px;
+        visibility: hidden;
+        background-color: #c23f3e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        z-index: 2;
+        font-weight: bold;
+    }
+      
+      @keyframes show-header {
+        to {
+          opacity: 10;
+          visibility: visible;
+        }
+      }
+      
+      .header {
+        animation: show-header forwards;
+        animation-timeline: scroll();
+        animation-range: 50px;
+        /* NUO KADA ATSIRANDA HEADERIS */
+      }
+     
+      #nav-header-list{
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        padding-left: 25px;
+        gap:25px;
+      }
+      .header-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+     
+      .home-icon-header{
+        margin-right: 0px;
+      }
+      .home-icon-header:hover{
+        color: grey;
+      }
+      .nav-link:hover{
+        color:grey;
+      }
+     

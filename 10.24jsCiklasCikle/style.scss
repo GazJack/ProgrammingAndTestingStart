@@ -1,0 +1,89 @@
+$kintamasis: aquamarine;
+
+h1 {
+    color: $kintamasis;
+    
+    span {
+        color: rgb(0, 255, 170);
+    }
+}
+
+#nr1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid rgb(0, 255, 21);
+    margin: 50px;
+    flex-wrap: wrap;
+
+div 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(174, 255, 0);
+    margin: 10px;
+    flex-wrap: wrap;
+
+
+}
+
+        span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid lightskyblue;
+            margin: 20px;
+            flex-wrap: wrap;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+ 
+
+}
+
+
+
+
+
+// kvadratai staciakampiuose
+// $kintamasis: aquamarine;
+
+// h1 {
+//     color: $kintamasis;
+    
+//     span {
+//         color: rgb(0, 255, 170);
+//     }
+// }
+
+// #nr1 {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 30px;
+//     border: 1px solid rgb(0, 255, 21);
+//     margin: 50px;
+//     flex-wrap: wrap;
+
+// div 
+// {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 10px;
+//     border: 1px solid rgb(174, 255, 0);
+//     margin: 10px;
+//     flex-wrap: wrap;
+//     width: 100px;
+//     height: 100px;
+
+// }
+
+
+
+// }

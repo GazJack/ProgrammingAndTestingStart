@@ -1,0 +1,446 @@
+a* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --lightViolet: #9A54BC;
+    --midViolet: #60267F;
+    --darkViolet: #2B0236;
+}
+
+
+
+body {
+    font-family: "Roboto";
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple-line {
+    width: 100%;
+    height: 20px;
+    background: rgba(96, 38, 127, 1);
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.purple-line a {
+    color: white;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: rgba(220, 220, 220, 0.2) 3px solid;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.navigation-container nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation-container nav ul li {
+    list-style: none;
+    font-size: 14px;
+}
+
+.navigation-container nav ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #2B0236;
+}
+
+.navigation-container nav ul li a:hover {
+    color: rgb(140, 0, 255);
+}
+
+
+.headerBtn {
+    padding: 5px 10px;
+    background-color: transparent;
+    border: #9A54BC solid 2px;
+    border-radius: 3px;
+    font-size: 10px;
+    color: #9A54BC;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.headerBtn:hover {
+    background-color: #9A54BC;
+    color: white;
+}
+
+.sectionOneContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 40px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sectionOneText {
+    font-size: 36px;
+    text-align: center;
+    color: #2B0236;
+}
+
+.SectionOneBtn {
+    padding: 15px 20px;
+    background-color: var(--lightViolet);
+    border: var(--lightViolet) 1px solid;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+
+}
+
+.SectionOneBtn:hover {
+    background-color: white;
+    color: var(--lightViolet);
+    box-shadow: 0px 4.4px 8.8px 0px #0000001A;
+}
+
+
+.sectionTwoEllipseContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 200px;
+
+}
+
+
+.absolute {
+    position: absolute;
+
+}
+
+.smallEllipse {
+    top: -170px;
+}
+
+.Rectangle {
+    top: -160px;
+}
+
+.ellipselogo {
+    top: -50px;
+}
+
+.ellipseButton {
+    padding: 7px 12px;
+    background-color: white;
+    color: var(--midViolet);
+    border: 2px solid var(--lightViolet);
+    border-radius: 3px;
+    font-size: 12px;
+    top: 130px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.2s all ease-in-out;
+
+
+}
+
+/* .iconsContainer {
+    font-size: 50px;
+    color: #a60505;
+} */
+
+.ellipseButton:hover {
+    color: white;
+    background-color: var(--midViolet);
+}
+
+/* .iconsContainer {
+    width: 100%;
+  margin-top: 300px;
+  flex-direction: column;
+  gap: 50px;
+} */
+
+.iconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.iconsContainer h2 {
+    font-size: 36px;
+}
+
+
+.icons {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.icons img {
+    width: 100px;
+}
+
+.howDoesCollabHelpContainer {
+    margin-top: 150px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.textAndImgContainer {
+    width: 75%;
+    height: 400px;
+}
+
+.textContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 50px;
+
+}
+
+.ancorContainer {
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    gap: 5px;
+    padding: 5px;
+    box-shadow: 0px 3.96px 5.28px 0px #00000017;
+    border-radius: 5px;
+
+}
+
+.ancorContainer a {
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.ancorContainer a:hover {
+    background-color: var(--midViolet);
+    border: 2px solid var(--lightViolet);
+    color: white;
+}
+
+.paraContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.textContainerParagraph {
+    background-color: #F2F2F2;
+    max-width: 550%;
+    padding: 30px 10px;
+}
+
+.textContainerParagraph span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.imgContainer {
+    width: 50%;
+}
+
+.imgContainer img {
+    margin-top: 220px;
+    width: 320px;
+}
+
+.fastestSafestContainer {
+    flex-direction: column;
+    margin-top: 350px;
+    gap: 40px;
+    width: 100%;
+}
+
+.fastestSafestContainer p {
+    width: 55%;
+    text-align: center;
+}
+
+.projectsDone {
+    gap: 80px;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+.projectsContainer {
+    gap: 120px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 700;
+}
+
+.card img {
+    width: 300px;
+}
+
+.card span {
+    color: var(--midViolet);
+    padding: 0 10px;
+}
+
+.readyToStartContainer {
+    flex-direction: column;
+    margin-top: 250px;
+    width: 100%;
+}
+
+.readyToStartPara {
+    color: #A79D9D;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.monthlyContainer {
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.monthly {
+    font-size: 14px;
+    color: #A79D9D;
+}
+
+.yearly {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.monthlyContainer {
+    font-size: 10px;
+    background-color: #FFE87A;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.bigCardsContainer {
+    margin-top: 100px;
+    gap: 30px;
+    width: 100%;
+}
+
+.bigCard {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 12%;
+    border: 1px solid gainsboro;
+    height: 400px;
+    border-radius: 5px;
+    gap: 30px;
+    padding: 30px;
+}
+
+.bigCard p {
+    font-weight: 500;
+}
+
+.bigCard button {
+    background-color: white;
+    padding: 15px 30px;
+    color: var(--darkViolet);
+    border: 3px solid var(--darkViolet);
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bigCard ul li {
+    margin-top: 5px;
+}
+
+.bigCard ul li::marker {
+    content: ►;
+}
+
+/* alt16 padaro trikampi */
+
+.bigCard:hover {
+    background-color: #56E6A5;
+}
+
+.bigCardsContainer .bigCard .bigCardLastPara {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+
+
+
+.purpleCollabMobile {
+    flex-direction: column;
+    background-color: rgba(154, 84, 188, 1);
+    height: 300px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 100px;
+}
+
+.purpleCollabMobile h2 {
+    font-weight: 900;
+    font-size: 46px;
+}
+
+.buttonsThreeThree button {
+    background-color: transparent;
+    width: 150px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.buttonsThreeThree button:hover {
+    background-color: white;
+    color: rgba(154, 84, 188, 1);
+}

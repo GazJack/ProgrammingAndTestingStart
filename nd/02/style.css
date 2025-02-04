@@ -1,0 +1,129 @@
+/* $kintamasis: aquamarine; */
+
+.pirmasPavadinimas {
+    color: lightcoral;
+}
+
+.pirmaUzduotis {
+    color: lightcoral;
+    display: inline;
+}
+
+.pirmaUzduotisAntraDalis {
+    display: inline;
+    color: lightcoral;   
+}
+
+.antrasPavadinimas {
+    color: rgb(255, 35, 90);
+}
+
+
+/* 
+h1 {
+     color: $kintamasis;
+    
+    span {
+        color: rgb(0, 255, 170);
+    }
+} */
+
+.treciasPavadinimas {
+    color: blue;
+    margin-top: 50px;
+
+}
+
+ #nr3 {
+     display: flex;
+     border: 1px solid transparent;
+     flex-wrap: wrap;
+
+ div 
+ {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: blue;
+     padding: 10px;
+     background-color: blue;
+     margin: 2px;
+     flex-wrap: wrap;
+     width: 100px;
+     height: 100px;
+     flex-direction: row;
+ }
+ }
+
+.ketvirtasPavadinimas {
+    color: red;
+    margin-top: 50px;
+
+}
+
+#nr4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: transparent;
+        padding: 10px;
+        background-color: blue;
+        margin: 2px;
+        flex-wrap: wrap;
+        width: 100px;
+        height: 100px;
+        flex-direction: row;
+        border-radius: 50%;
+    }
+}
+
+.septintasPavadinimas {
+    margin-top: 50px;
+    color: blue;
+}
+
+#nr7 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+
+div 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid transparent;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+}
+#kvadratas1 {background-color: rgb(26, 26, 255);}
+#kvadratas2 {background-color: rgb(39, 39, 255);}
+#kvadratas3 {background-color: rgb(75, 75, 255);}
+#kvadratas4 {background-color: rgb(96, 96, 255);}
+#kvadratas5 {background-color: rgb(121, 121, 255);}
+#kvadratas6 {background-color: rgb(152, 152, 249);}
+#kvadratas7 {background-color: rgb(197, 197, 255);}
+#kvadratas8 {background-color: rgb(238, 238, 255);}
+#kvadratas9 {background-color: rgb(164, 164, 255);}
+#kvadratas10 {background-color: rgb(135, 135, 255);}
+#kvadratas11 {background-color: rgb(121, 121, 255);}
+#kvadratas12 {background-color: rgb(75, 75, 255);}
+#kvadratas13 {background-color: rgb(48, 48, 255);}
+#kvadratas14 {background-color: rgb(0, 0, 255);}
+
+.penktasPavadinimas {color: lightpink;}
+
+.šeštasPavadinimas {color: rgb(0, 210, 126);}
+
+.septintasPavadinimas {color: blue;}
+
+.septintukas {color: rgb(57, 57, 140);}
+
+.astuntasPavadinimas {color: cadetblue;}

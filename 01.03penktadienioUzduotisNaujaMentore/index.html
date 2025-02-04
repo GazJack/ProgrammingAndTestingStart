@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Registracija x puslapyje</title>
+</head>
+<body>
+    <form id="registracijosForma">
+    
+    <h2>Registracija</h2> 
+
+    <label for="vardas">Vardas</label> 
+    <input type="text" id="vardas" name="vardas" minlength="2" maxlength="30" pattern="[A-Za-zĄČĘĖĮŠŲŪŽąčęėįšųūž]+" required>
+    <p class="error-message" id="vardasKlaida"></p>
+
+    <label for="elpastas">El. paštas</label> 
+    <input type="email" id="elpastas" name="elpastas" 
+    required>
+    <p class="error-message" id="elpastasKlaida"></p>
+
+
+
+<!-- 
+    <label for="elpastas">El. paštas:</label><br>
+        <input type="email" id="elpastas" name="elpastas"><br>
+        <span id="emailError" class="error"></span><br><br> -->
+
+
+    <label for="amzius">Amžius</label> 
+    <input type="number" name="amzius" id="amzius" min="18" max="120" step="1" required>
+    <p class="error-message" id="amziusKlaida"></p>
+
+    <label for="telnumeris">Tel. numeris</label> 
+    <input type="tel" id="telnumeris" name="telnumeris" pattern="^\+\d{8,15}$" required>
+    <p class="error-message" id="telefonasKlaida"></p>
+
+    <label for="slaptazodis">Slaptažodis</label> 
+    <input type="password" name="slaptazodis" id="slaptazodis" 
+    
+    title="Slaptažodyje turi būti bent 8 simboliai, didžioji, mažoji raidė, skaičius ir simbolis" required>
+    <p class="error-message" id="slaptazodisKlaida"></p>
+
+    <label for="pakartotislaptazodi">Pakartoti slaptažodį</label> 
+    <input type="password" name="pakartotislaptazodi" id="pakartotislaptazodi" 
+     required>
+    <p class="error-message" id="pakartotiSlaptazodiKlaida"></p>
+
+    <button type="submit">Registruotis</button>
+</form>
+
+
+
+</body>
+</html>
+
+<!-- Instrukcijos
+Sukurkite HTML formą, skirta registracijai X puslapyje
+
+Privalomi registracijos laukai
++ vardas (ilgesnis nei du simboliai, bet ne ilgesnis nei 30, turi būti sudarytas tik iš raidžių, be skaičių ir spec simbolių)
+el.paštas (įsitikintumėte, jog įvestas el. pašto adresas yra tinkamos formos)
+amžius (galimos reikšmės daugiau nei 18, mažiau 120)
+telefono numeris formatu pvz +xxx xxx xxxxx (tikrinam ar atitinka telefono numeris formatą ir susideda iš skaičių
+slaptažodžio stiprumo tikrinimas (Patikrinkite, ar slaptažodyje yra bent 8 simboliai, bent vienas didžioji raidė, mažoji raidė, skaičius ir specialus simbolis)
+pakartotinas slaptažodžio įvedimas (sutapimas su anksčiau įvestu slaptažodžiu)
+-> Suklydus rodomas klaidos pranešimas
+-> Sėkmingai praėjus patikrinimą, vartotojas informuojamas apie sėkmingą registraciją
+
+papildomai kam per mažai iššūkių:
+amžiaus įvedimas iš kalendoriaus ir tikrinam ar jau yra 18 ir dar nėra 120
+
+Pateikimas: atsiųsti GitHub repozitorijos nuorodą su įkeltu projektu ir aktyvuotu GitHub Pages
+Terminas: idealiu atveju pateikimas iki penktadienio 16:00 -->
+

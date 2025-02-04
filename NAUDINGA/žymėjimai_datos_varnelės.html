@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<input type="text" placeholder="kai langelis tuscias-lieka sitas zodis"> tekstui ivest, ka parasysim po rodyklyte tas matysis jau irasyta
+<input type="password"> slaptazodziui-rodys taskus
+<input type="email"> toks pats kaip tekstas
+<input type="number"> skaiciuoja numerius(kieki)
+<input type="checkbox"> zymisi varnele
+<input type="radio"> uzsizymi rutuliukas ir nebenusiima
+
+<div>
+    <input type="radio" name="r1">
+    <input type="radio" name="r1" checked> <!--jau pazymetas rutuliukas-->
+    <input type="radio" name="r1">
+</div>
+<!--atskirai zymesis r1 ir r2, nes juos skiria divai-->
+<div>
+<input type="radio"> name ="r2">
+<input type="radio"> name ="r2">
+<input type="radio"> name ="r2">
+</div>
+
+
+<div>
+<select> <!--pasirinkti vienetus galima (1, 2 ar tris vnt) ir butinai irasyt select, nes jie bendrau visi veikia-->
+    <option value="123">Smelio deze</option>
+    <option>2</option>
+    <option>3</option>
+</select>
+</div>
+
+
+<div><!--galima irasyt teksta i langeli-->
+    <textarea>
+    </textarea>
+</div>
+
+<div>
+<input type="range"> garsumas reguliuojasi
+<input type="color"> spalva leidzia --pasirinkti
+</div>
+
+
+<div>
+    <input type="file"> ikelia faila
+<input type="date"> pasirinkti data 
+<input type="time"> pasirinkti laika
+<input type="button"> 
+</div>
+
+
+<div>
+    <button>Click me</button>
+</div>
+
+<input id="labas1" type="checkbox"> <!--labas1 toks zodis gali buti vienintelis, bet input id gali buti daug-->
+<input id="labas2" type="checkbox">
+<label for="labas1">Check me</label>
+
+</body>
+</html>
